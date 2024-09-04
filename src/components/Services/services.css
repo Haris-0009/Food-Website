@@ -1,0 +1,46 @@
+
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;    
+    gap: 30px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    padding-bottom: 60px;
+}
+
+.service{
+    margin-top: 40px;
+    position: relative;
+}
+
+.services-img{
+    width: 350px;
+
+}
+
+.services-img img{
+    height: 350px;
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 60px;
+    opacity: 0.7;
+}
+
+
+.service h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 43%;
+    left: 25%;
+}
+
+.service h3 span{
+    margin-left: 30px;
+}
