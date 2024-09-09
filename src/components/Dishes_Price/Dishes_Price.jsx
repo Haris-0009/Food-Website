@@ -2,6 +2,7 @@ import beef from "../../images/beef.jpg"
 import pasta from "../../images/pasta.jpg"
 import brownie from "../../images/brownie.jpg"
 import salad from "../../images/salad.jpg"
+import topping from "../../images/toppping.jpg"
 import "../Dishes_Price/Dishes_Price.css"
 
 
@@ -31,8 +32,15 @@ const Dishes_Price = () => {
                     <img src={brownie} alt="brownie" />
                 </div>
             </div>
-            <div className="Price-two">
-
+            <div className="Price-One">
+                <div className="item-image">
+                    <img src={topping} alt="beef" />
+                </div>
+                <div className="item-description">
+                    <h1>$4</h1>
+                    <h3>CROISSTANT WITH TOPPING</h3>
+                    <p>Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too.</p>          
+                </div>
             </div>
 
         </div>

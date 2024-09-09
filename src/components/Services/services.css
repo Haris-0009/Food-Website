@@ -1,11 +1,11 @@
 
 .services{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
     margin-top: -5px;    
-    gap: 30px;
+    /* gap: 30px; */
     padding: 20px;
     background-color: #1a1a1a;
     padding-bottom: 60px;
@@ -14,11 +14,14 @@
 .service{
     margin-top: 40px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
 }
 
 .services-img{
-    width: 350px;
-
+    width: 80%;
 }
 
 .services-img img{
@@ -29,6 +32,12 @@
     object-position: center;
     border-radius: 60px;
     opacity: 0.7;
+    transition: transform 0.5s;
+}
+
+
+.services-img img:hover{
+    transform: scale(1.1);
 }
 
 
@@ -38,7 +47,7 @@
     position: absolute;
     text-align: center;
     top: 43%;
-    left: 25%;
+    left: 30%;
 }
 
 .service h3 span{

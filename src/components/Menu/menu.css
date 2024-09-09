@@ -1,0 +1,72 @@
+
+
+
+.menu-main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 2rem;
+}
+
+
+
+.menu-header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.menu-header h1{
+    font-size: 50px;
+}
+
+
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1px;
+}
+
+.m-item{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 2rem;
+}
+
+
+.m-item img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 60px;
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+
+.m-item img:hover{
+    box-shadow: 0px 0px 10px;
+    transform: translate(10px);
+}
+
+
+.m-item button{
+    padding: 1.5rem;
+    font-size: 15px;
+    background: transparent;
+    border: 2px solid #99E54D;
+    color: #99E54D;
+    border-radius: 50px;
+}
+
+
+.m-item button:hover{
+    transition: background-color 0.5s ,color 0.5s;
+    background-color: #99E54D;
+    color: #1a1a1a;
+}
