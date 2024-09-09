@@ -21,13 +21,13 @@ const Dishes_Price = () => {
                 </div>
             </div>
             <div className="Price-Image">
-                <div>
+                <div className="image">
                     <img src={pasta} alt="pasta" />
                 </div>
-                <div>
+                <div className="image">
                     <img src={salad} alt="salad" />
                 </div>
-                <div>
+                <div className="image">
                     <img src={brownie} alt="brownie" />
                 </div>
             </div>
