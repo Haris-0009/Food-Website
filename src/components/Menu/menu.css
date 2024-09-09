@@ -70,3 +70,7 @@
     background-color: #99E54D;
     color: #1a1a1a;
 }
+
+.m-item button:active{
+    opacity: 0.5;
+}

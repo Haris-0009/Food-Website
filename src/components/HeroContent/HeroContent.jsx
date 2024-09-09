@@ -11,7 +11,7 @@ const HeroContent = () => {
             <h1>40%</h1>
             <p>BUSINESS</p>
             <p>LUNCH</p>
-        </div>
+        </div>  
         <div className="hero-heading">
             <p>NEW RESTAURANT</p> 
             <h1>Where every ingredient tells a story</h1>

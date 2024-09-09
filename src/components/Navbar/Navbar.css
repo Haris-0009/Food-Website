@@ -34,3 +34,15 @@ nav ul li:hover{
 }
 
 
+@media screen and (max-width: 768px){
+
+    nav{
+        display: none;
+    }
+
+    header{
+        height: 40px;
+    }
+}
+
+

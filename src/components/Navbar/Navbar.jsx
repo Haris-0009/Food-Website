@@ -4,6 +4,9 @@ const Navbar = () => {
     return(
         <>
         <header>
+            {
+                            
+            }   
             <nav>
                 <ul>
                     <li>HOME</li>
