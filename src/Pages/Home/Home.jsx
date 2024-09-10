@@ -8,6 +8,8 @@ import dessert from '../../images/toppping.jpg'
 import drink from '../../images/drink.jpeg'
 import chicken from '../../images/chicken.jpg'
 import { FaPhone } from "react-icons/fa6";
+import Button from '../../components/Button'
+import beef from '../../images/beef.jpg'
 
 
 
@@ -69,6 +71,44 @@ const Home = () => {
             <div className="home-heading2">
                 <p>OUR RESTAURANT</p>
                 <h1>A culinary adventure for all the senses
+                </h1>
+                <button>READ MORE</button>
+            </div>
+        </div>
+        <div className="check">
+            <div className="check-heading">
+                <h1>Check Our Blog</h1>
+            </div>
+            <div className="check-card">
+                <div className="post">
+                    <h2>Kitchn</h2>
+                    <p>Sample small text. Lorem ipsum dolor sit amet.</p>
+                    <Button style={{}}/>
+                </div>
+                <div className="post">
+                    <h2>Food52</h2>
+                    <p>Sample small text. Lorem ipsum dolor sit amet.</p>
+                    <Button/>
+                </div>
+                <div className="post">
+                    <h2>Serious Eats</h2>
+                    <p>Sample small text. Lorem ipsum dolor sit amet.</p>
+                    <Button/>
+                </div>
+                <div className="post">
+                    <h2>The Recipe Critc</h2>
+                    <p>Sample small text. Lorem ipsum dolor sit amet.</p>       
+                    <Button style={{backgroundColor : "#99E54D"}}>MORE</Button>
+                </div>
+            </div>
+        </div>
+        <div className="home-front">
+            <div className="home-Image">
+                <img src={beef} alt="" />
+            </div>
+            <div className="home-heading3">
+                <p>OUR RESTAURANT</p>
+                <h1>The magic of the kitchen
                 </h1>
                 <button>READ MORE</button>
             </div>

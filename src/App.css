@@ -3,3 +3,12 @@
   padding: 0;
   margin: 0;
 }
+
+
+.btn{
+  padding: 1rem;
+  font-size: 15px;
+  background-color: #F1AE0E;
+  color: white;
+  border-radius: 60px;
+}
