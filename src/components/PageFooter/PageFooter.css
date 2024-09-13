@@ -1,0 +1,135 @@
+
+
+
+.footer-front{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 4rem;
+    padding-left:  4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    background-color: white;
+    width: 60vw;
+    height: 70vh;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 50%;
+    height: 70%;
+    padding-right: 2rem;
+}
+
+.right-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+}
+
+.right-div h2{
+    margin-bottom: 20px;
+}
+
+.right-div p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right-div a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.link-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.right-div a span{
+    color: #F1AE0E;
+    font-weight: 500;
+}
+
+
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 70%;
+    padding-left: 2rem;
+    gap: 10%;
+
+}
+
+.per{
+    width: 250px;
+    height: 250px;
+    background-color: #99E54D;
+    border-radius: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.per h1{
+    font-size: 70px;
+}
+
+.per p{
+    font-size: 25px;
+}
+
+
+.bottom h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+}
+
+.bottom button{
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    background-color: #F1AE0E;
+    color: white;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.bottom button:hover{
+    opacity: 0.8;
+    color: black;
+}

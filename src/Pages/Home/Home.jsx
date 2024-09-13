@@ -10,7 +10,8 @@ import chicken from '../../images/chicken.jpg'
 import { FaPhone } from "react-icons/fa6";
 import Button from '../../components/Button'
 import beef from '../../images/beef.jpg'
-
+import newone from '../../images/new.jpg'
+import PageFooter from '../../components/PageFooter/PageFooter'
 
 
 const Home = () => {
@@ -83,22 +84,22 @@ const Home = () => {
                 <div className="post">
                     <h2>Kitchn</h2>
                     <p>Sample small text. Lorem ipsum dolor sit amet.</p>
-                    <Button style={{}}/>
+                    <button>READ MORE</button>
                 </div>
                 <div className="post">
                     <h2>Food52</h2>
                     <p>Sample small text. Lorem ipsum dolor sit amet.</p>
-                    <Button/>
+                    <button>READ MORE</button>
                 </div>
                 <div className="post">
                     <h2>Serious Eats</h2>
                     <p>Sample small text. Lorem ipsum dolor sit amet.</p>
-                    <Button/>
+                    <button>READ MORE</button>
                 </div>
                 <div className="post">
                     <h2>The Recipe Critc</h2>
                     <p>Sample small text. Lorem ipsum dolor sit amet.</p>       
-                    <Button style={{backgroundColor : "#99E54D"}}>MORE</Button>
+                    <button>READ MORE</button>
                 </div>
             </div>
         </div>
@@ -112,7 +113,28 @@ const Home = () => {
                 </h1>
                 <button>READ MORE</button>
             </div>
+        </div>  
+        <div className="number" style={{backgroundColor : "#f1ae0e"}}>
+            <div className="center" style={{gap : "20px"}}>
+                <h1>Keep up to date with us</h1>
+                <div className="center-div">
+                    <input type="text" placeholder='Enter a valid email address'/>
+                    <button>SUBMIT</button>
+                </div>
+            </div>
         </div>
+        <div className="home-front">
+            <div className="home-Image">
+                <img src={newone} alt="" />
+            </div>
+            <div className="home-heading4">
+                <p>OUR RESTAURANT</p>
+                <h1>A new way to experience food
+                </h1>
+                <button>READ MORE</button>
+            </div>
+        </div>
+        <PageFooter/>
                 
     </div>
   )

@@ -136,6 +136,10 @@
     background-color: #f1ae0e;
 }
 
+.vm button:hover{
+    opacity: 0.5;
+}
+
 .number{
     background-color: #99E54D;
     display: flex;
@@ -256,6 +260,23 @@
     font-size: 20px;
 }
 
+
+.post button{
+    background-color: #99E54D;
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.post button:hover{
+    opacity: 0.8;
+    color: black;
+}
+
 .home-heading3{
     left: 22%;
     top: 357%;
@@ -299,9 +320,77 @@
     color: black;
 }
 
+.center-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 45%;
+}
+
+.center-div input{
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 200;
+    width: 100%;
+}
 
 
+.center-div button{
+    cursor: pointer;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: #99E54D;
+}
 
+.home-heading4{
+    left: 22%;
+    top: 479%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    width: 25%;
+}
+
+
+.home-heading4 h1{
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 100px;
+}
+
+.home-heading4 P{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.home-heading4 button{
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 700;
+    width: 40%;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #f1ae0e;
+}
+
+.home-heading4 button:hover{
+    opacity: 0.8;
+    color: black;
+}
 
 
 
